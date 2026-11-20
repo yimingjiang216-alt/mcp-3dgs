@@ -6,7 +6,7 @@
 
 > **核心范式**：$\text{Embodied Agent} = \text{Spatial Representation (Semantic 3DGS)} \times \text{Perception} \times \text{Planning} \times \text{Action}$
 >
-> 本项目将真实室内 RGB-D 场景（**TUM `rgbd_dataset_freiburg1_desk`**，承接 [`rgbd-slam`](https://github.com/yimingjiang216-alt/rgbd-slam) 稀疏光束法平差位姿与 [`sfm-push`](https://github.com/yimingjiang216-alt/sfm-push) 3DGS 重建管线）封装为标准化 **Model Context Protocol (`FastMCP`)** 空间智能服务器。任何大模型/多模态 Agent（Claude Desktop、Cursor、DeepSeek Agent）均可通过 7 个标准 MCP 工具直接查询真实三维工作台场景中的开放词汇目标、推理三维拓扑/度量空间关系、在 3DGS 世界模型中**主动想象候选视角（Active VLN Next-Best-View）**、在 3DGS 导出的欧氏符号距离场（ESDF）中规划**无碰撞三维轨迹**，并对三维物体执行**反事实空间编辑（Counterfactual 3D Scene Editing）**。
+> 本项目将真实室内 RGB-D 场景（**TUM `rgbd_dataset_freiburg1_desk`**，承接 [`rgbd-slam`](https://github.com/yimingjiang216-alt/rgbd-slam) 稀疏光束法平差位姿与 [`sfm-3dgs-pipeline`](https://github.com/yimingjiang216-alt/sfm-3dgs-pipeline) 3DGS 重建管线）封装为标准化 **Model Context Protocol (`FastMCP`)** 空间智能服务器。任何大模型/多模态 Agent（Claude Desktop、Cursor、DeepSeek Agent）均可通过 7 个标准 MCP 工具直接查询真实三维工作台场景中的开放词汇目标、推理三维拓扑/度量空间关系、在 3DGS 世界模型中**主动想象候选视角（Active VLN Next-Best-View）**、在 3DGS 导出的欧氏符号距离场（ESDF）中规划**无碰撞三维轨迹**，并对三维物体执行**反事实空间编辑（Counterfactual 3D Scene Editing）**。
 
 ---
 
@@ -187,3 +187,14 @@ mcp-3dgs/
 ├── run_experiments.py         # 一键复现实验与出图脚本
 └── test_mcp_3dgs.py           # 7 项核心算子与 FastMCP 接口自动化测试
 ```
+
+---
+
+## 六、本作品集关联仓库
+
+- [`supermimic-g1-sim`](https://github.com/yimingjiang216-alt/supermimic-g1-sim)：29-DoF Unitree G1 人形机器人全身动捕控制与可微物理世界模型（CoRL 2026 Oral *SuperMimic* 复现与消融）
+- [`embodied-kb`](https://github.com/yimingjiang216-alt/embodied-kb)：具身智能 28 篇核心论文精读谱系 + 大脑/运动皮层/小脑三层认知架构 + BM25/语义混合检索 MCP 知识库
+- [`rgbd-slam`](https://github.com/yimingjiang216-alt/rgbd-slam)：从零实现视觉/激光 SLAM、手推稀疏解析 Jacobian 在线局部 BA 与短基线回环退化机理研究
+- [`sfm-3dgs-pipeline`](https://github.com/yimingjiang216-alt/sfm-3dgs-pipeline)：TUM 序列 COLMAP 针孔 SfM 稀疏重建到 3D Gaussian Splatting 新视角合成管线
+- [`mini-vla-pi0`](https://github.com/yimingjiang216-alt/mini-vla-pi0) & [`pi05-libero-sim`](https://github.com/yimingjiang216-alt/pi05-libero-sim)：$\pi_0/\pi_{0.5}$ 架构视觉-语言-动作（VLA）模型从零实现与机械臂仿真闭环部署
+
