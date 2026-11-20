@@ -1,0 +1,919 @@
+{
+  "scene_name": "tum_fr1_desk",
+  "num_gaussians": 45000,
+  "num_objects": 21,
+  "semantic_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "bounds_min_m": [
+    -2.4316,
+    -1.4328,
+    0.4335
+  ],
+  "bounds_max_m": [
+    1.3777,
+    1.1939,
+    2.2924
+  ],
+  "objects": [
+    {
+      "object_id": "academic_books_01",
+      "instance_index": 1,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #1 (left side of desk)",
+      "description": "Academic Books #1 (left side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at left side of desk around 3D coordinates (-1.01, 0.48, 0.76) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        -1.0143,
+        0.4829,
+        0.7621
+      ],
+      "bbox_min_m": [
+        -1.1132,
+        0.3725,
+        0.6849
+      ],
+      "bbox_max_m": [
+        -0.891,
+        0.5814,
+        0.9017
+      ],
+      "extent_m": [
+        0.2223,
+        0.2089,
+        0.2167
+      ],
+      "volume_m3": 0.01006,
+      "confidence": 0.9739,
+      "num_gaussians": 987,
+      "num_views_observed": 10,
+      "color_rgb": [
+        0.95,
+        0.75,
+        0.15
+      ]
+    },
+    {
+      "object_id": "computer_keyboard_01",
+      "instance_index": 2,
+      "category": "keyboard",
+      "canonical_name": "computer_keyboard",
+      "label": "Computer Keyboard #1 (right side of desk)",
+      "description": "Computer Keyboard #1 (right side of desk): mechanical computer keyboard on office desk for typing text, writing code, and data entry input device in front of monitor. Located at right side of desk around 3D coordinates (-0.23, 0.27, 0.86) meters.",
+      "affordances": [
+        "typeable",
+        "pressable",
+        "graspable",
+        "stationary_input"
+      ],
+      "center_m": [
+        -0.231,
+        0.2728,
+        0.8627
+      ],
+      "bbox_min_m": [
+        -0.3569,
+        0.1471,
+        0.7638
+      ],
+      "bbox_max_m": [
+        -0.0759,
+        0.4122,
+        0.9692
+      ],
+      "extent_m": [
+        0.281,
+        0.2651,
+        0.2054
+      ],
+      "volume_m3": 0.0153,
+      "confidence": 0.9875,
+      "num_gaussians": 1176,
+      "num_views_observed": 9,
+      "color_rgb": [
+        0.15,
+        0.75,
+        0.95
+      ]
+    },
+    {
+      "object_id": "academic_books_02",
+      "instance_index": 3,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #2 (left side of desk)",
+      "description": "Academic Books #2 (left side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at left side of desk around 3D coordinates (-1.34, 0.16, 1.14) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        -1.336,
+        0.1625,
+        1.1395
+      ],
+      "bbox_min_m": [
+        -1.436,
+        0.0864,
+        1.0558
+      ],
+      "bbox_max_m": [
+        -1.2526,
+        0.2417,
+        1.24
+      ],
+      "extent_m": [
+        0.1834,
+        0.1553,
+        0.1841
+      ],
+      "volume_m3": 0.00525,
+      "confidence": 0.9178,
+      "num_gaussians": 634,
+      "num_views_observed": 7,
+      "color_rgb": [
+        0.928,
+        0.758,
+        0.248
+      ]
+    },
+    {
+      "object_id": "academic_books_03",
+      "instance_index": 4,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #3 (left side of desk)",
+      "description": "Academic Books #3 (left side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at left side of desk around 3D coordinates (-1.22, 0.33, 0.91) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        -1.2249,
+        0.3299,
+        0.9063
+      ],
+      "bbox_min_m": [
+        -1.3509,
+        0.233,
+        0.821
+      ],
+      "bbox_max_m": [
+        -1.1029,
+        0.4433,
+        1.072
+      ],
+      "extent_m": [
+        0.248,
+        0.2103,
+        0.2509
+      ],
+      "volume_m3": 0.01308,
+      "confidence": 0.9427,
+      "num_gaussians": 1175,
+      "num_views_observed": 7,
+      "color_rgb": [
+        0.928,
+        0.758,
+        0.248
+      ]
+    },
+    {
+      "object_id": "laptop_computer_01",
+      "instance_index": 5,
+      "category": "laptop",
+      "canonical_name": "laptop_computer",
+      "label": "Laptop Computer #1 (left side of desk)",
+      "description": "Laptop Computer #1 (left side of desk): portable laptop notebook computer with screen and keyboard on desk for mobile computing, programming, and workstation tasks. Located at left side of desk around 3D coordinates (-0.96, -0.24, 1.50) meters.",
+      "affordances": [
+        "viewable",
+        "typeable",
+        "foldable",
+        "portable_compute"
+      ],
+      "center_m": [
+        -0.961,
+        -0.2431,
+        1.5046
+      ],
+      "bbox_min_m": [
+        -1.0871,
+        -0.499,
+        1.4532
+      ],
+      "bbox_max_m": [
+        -0.8104,
+        -0.1981,
+        1.7652
+      ],
+      "extent_m": [
+        0.2767,
+        0.3009,
+        0.312
+      ],
+      "volume_m3": 0.02598,
+      "confidence": 0.9966,
+      "num_gaussians": 283,
+      "num_views_observed": 6,
+      "color_rgb": [
+        0.45,
+        0.35,
+        0.95
+      ]
+    },
+    {
+      "object_id": "computer_mouse_01",
+      "instance_index": 6,
+      "category": "mouse",
+      "canonical_name": "computer_mouse",
+      "label": "Computer Mouse #1 (left side of desk)",
+      "description": "Computer Mouse #1 (left side of desk): handheld optical computer mouse pointing device on desk next to keyboard for cursor navigation and clicking. Located at left side of desk around 3D coordinates (-1.00, 0.03, 1.25) meters.",
+      "affordances": [
+        "graspable",
+        "movable",
+        "clickable",
+        "handheld_pointing"
+      ],
+      "center_m": [
+        -1.0009,
+        0.0305,
+        1.2498
+      ],
+      "bbox_min_m": [
+        -1.0684,
+        -0.0068,
+        1.1828
+      ],
+      "bbox_max_m": [
+        -0.9058,
+        0.0896,
+        1.3018
+      ],
+      "extent_m": [
+        0.1626,
+        0.0963,
+        0.1191
+      ],
+      "volume_m3": 0.00187,
+      "confidence": 0.9433,
+      "num_gaussians": 213,
+      "num_views_observed": 6,
+      "color_rgb": [
+        0.1,
+        0.9,
+        0.55
+      ]
+    },
+    {
+      "object_id": "desktop_monitor_01",
+      "instance_index": 7,
+      "category": "tv",
+      "canonical_name": "desktop_monitor",
+      "label": "Desktop Monitor #1 (center of desk)",
+      "description": "Desktop Monitor #1 (center of desk): flat panel LCD computer monitor display screen on office desk for viewing code, visual output, documents, and graphical user interfaces. Located at center of desk around 3D coordinates (-0.33, 0.05, 1.03) meters.",
+      "affordances": [
+        "viewable",
+        "readable",
+        "display_screen",
+        "fragile"
+      ],
+      "center_m": [
+        -0.3335,
+        0.0499,
+        1.0301
+      ],
+      "bbox_min_m": [
+        -0.4932,
+        -0.0809,
+        0.8586
+      ],
+      "bbox_max_m": [
+        -0.2593,
+        0.1631,
+        1.1131
+      ],
+      "extent_m": [
+        0.234,
+        0.244,
+        0.2545
+      ],
+      "volume_m3": 0.01453,
+      "confidence": 0.9242,
+      "num_gaussians": 28,
+      "num_views_observed": 5,
+      "color_rgb": [
+        0.2,
+        0.45,
+        0.95
+      ]
+    },
+    {
+      "object_id": "coffee_mug_01",
+      "instance_index": 8,
+      "category": "cup",
+      "canonical_name": "coffee_mug",
+      "label": "Coffee Mug #1 (center of desk)",
+      "description": "Coffee Mug #1 (center of desk): ceramic coffee cup mug beverage container on desk for drinking water, coffee, or tea during office work. Located at center of desk around 3D coordinates (-0.50, 0.24, 0.94) meters.",
+      "affordances": [
+        "graspable",
+        "liftable",
+        "drinkable_container",
+        "pourable"
+      ],
+      "center_m": [
+        -0.5021,
+        0.2428,
+        0.9419
+      ],
+      "bbox_min_m": [
+        -0.5648,
+        0.1789,
+        0.8318
+      ],
+      "bbox_max_m": [
+        -0.4273,
+        0.3104,
+        1.0116
+      ],
+      "extent_m": [
+        0.1375,
+        0.1315,
+        0.1798
+      ],
+      "volume_m3": 0.00325,
+      "confidence": 0.9528,
+      "num_gaussians": 319,
+      "num_views_observed": 5,
+      "color_rgb": [
+        0.98,
+        0.35,
+        0.25
+      ]
+    },
+    {
+      "object_id": "desktop_monitor_02",
+      "instance_index": 9,
+      "category": "tv",
+      "canonical_name": "desktop_monitor",
+      "label": "Desktop Monitor #2 (right side of desk)",
+      "description": "Desktop Monitor #2 (right side of desk): flat panel LCD computer monitor display screen on office desk for viewing code, visual output, documents, and graphical user interfaces. Located at right side of desk around 3D coordinates (0.01, -0.23, 1.00) meters.",
+      "affordances": [
+        "viewable",
+        "readable",
+        "display_screen",
+        "fragile"
+      ],
+      "center_m": [
+        0.0059,
+        -0.2326,
+        0.9999
+      ],
+      "bbox_min_m": [
+        -0.1195,
+        -0.3695,
+        0.9037
+      ],
+      "bbox_max_m": [
+        0.1893,
+        -0.1186,
+        1.2125
+      ],
+      "extent_m": [
+        0.3089,
+        0.2509,
+        0.3088
+      ],
+      "volume_m3": 0.02393,
+      "confidence": 0.9078,
+      "num_gaussians": 1560,
+      "num_views_observed": 5,
+      "color_rgb": [
+        0.29,
+        0.502,
+        0.928
+      ]
+    },
+    {
+      "object_id": "desktop_monitor_03",
+      "instance_index": 10,
+      "category": "tv",
+      "canonical_name": "desktop_monitor",
+      "label": "Desktop Monitor #3 (center of desk)",
+      "description": "Desktop Monitor #3 (center of desk): flat panel LCD computer monitor display screen on office desk for viewing code, visual output, documents, and graphical user interfaces. Located at center of desk around 3D coordinates (-0.72, -0.02, 1.20) meters.",
+      "affordances": [
+        "viewable",
+        "readable",
+        "display_screen",
+        "fragile"
+      ],
+      "center_m": [
+        -0.7196,
+        -0.0249,
+        1.1975
+      ],
+      "bbox_min_m": [
+        -0.8733,
+        -0.2423,
+        1.044
+      ],
+      "bbox_max_m": [
+        -0.5817,
+        0.0243,
+        1.289
+      ],
+      "extent_m": [
+        0.2916,
+        0.2666,
+        0.245
+      ],
+      "volume_m3": 0.01904,
+      "confidence": 0.9095,
+      "num_gaussians": 491,
+      "num_views_observed": 4,
+      "color_rgb": [
+        0.29,
+        0.502,
+        0.928
+      ]
+    },
+    {
+      "object_id": "office_chair_01",
+      "instance_index": 11,
+      "category": "chair",
+      "canonical_name": "office_chair",
+      "label": "Office Chair #1 (left side of desk)",
+      "description": "Office Chair #1 (left side of desk): ergonomic swivel office chair next to desk for sitting and workstation support. Located at left side of desk around 3D coordinates (-1.48, -0.34, 1.71) meters.",
+      "affordances": [
+        "sittable",
+        "movable",
+        "support_furniture"
+      ],
+      "center_m": [
+        -1.4769,
+        -0.3379,
+        1.7129
+      ],
+      "bbox_min_m": [
+        -1.535,
+        -0.4574,
+        1.6526
+      ],
+      "bbox_max_m": [
+        -1.3159,
+        -0.2589,
+        1.8293
+      ],
+      "extent_m": [
+        0.219,
+        0.1985,
+        0.1766
+      ],
+      "volume_m3": 0.00768,
+      "confidence": 0.8647,
+      "num_gaussians": 185,
+      "num_views_observed": 3,
+      "color_rgb": [
+        0.65,
+        0.45,
+        0.25
+      ]
+    },
+    {
+      "object_id": "laptop_computer_02",
+      "instance_index": 12,
+      "category": "laptop",
+      "canonical_name": "laptop_computer",
+      "label": "Laptop Computer #2 (center of desk)",
+      "description": "Laptop Computer #2 (center of desk): portable laptop notebook computer with screen and keyboard on desk for mobile computing, programming, and workstation tasks. Located at center of desk around 3D coordinates (-0.45, -0.05, 0.77) meters.",
+      "affordances": [
+        "viewable",
+        "typeable",
+        "foldable",
+        "portable_compute"
+      ],
+      "center_m": [
+        -0.4522,
+        -0.0538,
+        0.7748
+      ],
+      "bbox_min_m": [
+        -0.5705,
+        -0.2413,
+        0.6788
+      ],
+      "bbox_max_m": [
+        -0.2765,
+        0.1072,
+        1.087
+      ],
+      "extent_m": [
+        0.294,
+        0.3485,
+        0.4081
+      ],
+      "volume_m3": 0.04181,
+      "confidence": 0.765,
+      "num_gaussians": 889,
+      "num_views_observed": 3,
+      "color_rgb": [
+        0.502,
+        0.418,
+        0.928
+      ]
+    },
+    {
+      "object_id": "academic_books_04",
+      "instance_index": 13,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #4 (left side of desk)",
+      "description": "Academic Books #4 (left side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at left side of desk around 3D coordinates (-0.78, 0.27, 0.96) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        -0.7767,
+        0.2693,
+        0.9635
+      ],
+      "bbox_min_m": [
+        -0.8863,
+        0.1898,
+        0.9181
+      ],
+      "bbox_max_m": [
+        -0.696,
+        0.313,
+        1.0398
+      ],
+      "extent_m": [
+        0.1903,
+        0.1231,
+        0.1217
+      ],
+      "volume_m3": 0.00285,
+      "confidence": 0.6764,
+      "num_gaussians": 199,
+      "num_views_observed": 3,
+      "color_rgb": [
+        0.928,
+        0.758,
+        0.248
+      ]
+    },
+    {
+      "object_id": "desktop_monitor_04",
+      "instance_index": 14,
+      "category": "tv",
+      "canonical_name": "desktop_monitor",
+      "label": "Desktop Monitor #4 (center of desk)",
+      "description": "Desktop Monitor #4 (center of desk): flat panel LCD computer monitor display screen on office desk for viewing code, visual output, documents, and graphical user interfaces. Located at center of desk around 3D coordinates (-0.52, -0.01, 0.77) meters.",
+      "affordances": [
+        "viewable",
+        "readable",
+        "display_screen",
+        "fragile"
+      ],
+      "center_m": [
+        -0.5203,
+        -0.0055,
+        0.7658
+      ],
+      "bbox_min_m": [
+        -0.5851,
+        -0.1875,
+        0.6942
+      ],
+      "bbox_max_m": [
+        -0.4434,
+        0.1372,
+        0.9052
+      ],
+      "extent_m": [
+        0.1417,
+        0.3247,
+        0.211
+      ],
+      "volume_m3": 0.00971,
+      "confidence": 0.7804,
+      "num_gaussians": 323,
+      "num_views_observed": 2,
+      "color_rgb": [
+        0.29,
+        0.502,
+        0.928
+      ]
+    },
+    {
+      "object_id": "computer_keyboard_02",
+      "instance_index": 15,
+      "category": "keyboard",
+      "canonical_name": "computer_keyboard",
+      "label": "Computer Keyboard #2 (left side of desk)",
+      "description": "Computer Keyboard #2 (left side of desk): mechanical computer keyboard on office desk for typing text, writing code, and data entry input device in front of monitor. Located at left side of desk around 3D coordinates (-0.80, -0.15, 1.39) meters.",
+      "affordances": [
+        "typeable",
+        "pressable",
+        "graspable",
+        "stationary_input"
+      ],
+      "center_m": [
+        -0.796,
+        -0.1513,
+        1.39
+      ],
+      "bbox_min_m": [
+        -0.8603,
+        -0.2363,
+        1.2856
+      ],
+      "bbox_max_m": [
+        -0.7101,
+        -0.0628,
+        1.4784
+      ],
+      "extent_m": [
+        0.1503,
+        0.1734,
+        0.1928
+      ],
+      "volume_m3": 0.00502,
+      "confidence": 0.928,
+      "num_gaussians": 18,
+      "num_views_observed": 2,
+      "color_rgb": [
+        0.248,
+        0.758,
+        0.928
+      ]
+    },
+    {
+      "object_id": "academic_books_05",
+      "instance_index": 16,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #5 (right side of desk)",
+      "description": "Academic Books #5 (right side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at right side of desk around 3D coordinates (0.43, -0.11, 1.03) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        0.4324,
+        -0.1122,
+        1.0269
+      ],
+      "bbox_min_m": [
+        0.3818,
+        -0.1561,
+        0.9914
+      ],
+      "bbox_max_m": [
+        0.4918,
+        -0.0482,
+        1.0977
+      ],
+      "extent_m": [
+        0.1099,
+        0.1079,
+        0.1063
+      ],
+      "volume_m3": 0.00126,
+      "confidence": 0.9478,
+      "num_gaussians": 64,
+      "num_views_observed": 2,
+      "color_rgb": [
+        0.928,
+        0.758,
+        0.248
+      ]
+    },
+    {
+      "object_id": "academic_books_06",
+      "instance_index": 17,
+      "category": "book",
+      "canonical_name": "academic_books",
+      "label": "Academic Books #6 (right side of desk)",
+      "description": "Academic Books #6 (right side of desk): printed textbook and technical reference book or notebook stack on desk for reading, studying, and documentation. Located at right side of desk around 3D coordinates (0.45, -0.33, 1.24) meters.",
+      "affordances": [
+        "graspable",
+        "readable",
+        "stackable",
+        "movable"
+      ],
+      "center_m": [
+        0.4504,
+        -0.331,
+        1.2424
+      ],
+      "bbox_min_m": [
+        0.3698,
+        -0.4135,
+        1.1062
+      ],
+      "bbox_max_m": [
+        0.6355,
+        -0.1627,
+        1.3106
+      ],
+      "extent_m": [
+        0.2658,
+        0.2508,
+        0.2044
+      ],
+      "volume_m3": 0.01362,
+      "confidence": 0.7273,
+      "num_gaussians": 404,
+      "num_views_observed": 2,
+      "color_rgb": [
+        0.928,
+        0.758,
+        0.248
+      ]
+    },
+    {
+      "object_id": "laptop_computer_03",
+      "instance_index": 18,
+      "category": "laptop",
+      "canonical_name": "laptop_computer",
+      "label": "Laptop Computer #3 (left side of desk)",
+      "description": "Laptop Computer #3 (left side of desk): portable laptop notebook computer with screen and keyboard on desk for mobile computing, programming, and workstation tasks. Located at left side of desk around 3D coordinates (-0.76, -0.11, 1.25) meters.",
+      "affordances": [
+        "viewable",
+        "typeable",
+        "foldable",
+        "portable_compute"
+      ],
+      "center_m": [
+        -0.7575,
+        -0.1106,
+        1.2456
+      ],
+      "bbox_min_m": [
+        -0.8421,
+        -0.2038,
+        1.1658
+      ],
+      "bbox_max_m": [
+        -0.6972,
+        -0.031,
+        1.4459
+      ],
+      "extent_m": [
+        0.1448,
+        0.1728,
+        0.2801
+      ],
+      "volume_m3": 0.00701,
+      "confidence": 0.5958,
+      "num_gaussians": 160,
+      "num_views_observed": 2,
+      "color_rgb": [
+        0.502,
+        0.418,
+        0.928
+      ]
+    },
+    {
+      "object_id": "desktop_monitor_05",
+      "instance_index": 19,
+      "category": "tv",
+      "canonical_name": "desktop_monitor",
+      "label": "Desktop Monitor #5 (right side of desk)",
+      "description": "Desktop Monitor #5 (right side of desk): flat panel LCD computer monitor display screen on office desk for viewing code, visual output, documents, and graphical user interfaces. Located at right side of desk around 3D coordinates (0.05, -0.42, 1.45) meters.",
+      "affordances": [
+        "viewable",
+        "readable",
+        "display_screen",
+        "fragile"
+      ],
+      "center_m": [
+        0.0504,
+        -0.4196,
+        1.4528
+      ],
+      "bbox_min_m": [
+        -0.1679,
+        -0.5218,
+        1.3645
+      ],
+      "bbox_max_m": [
+        0.2806,
+        -0.3232,
+        1.529
+      ],
+      "extent_m": [
+        0.4486,
+        0.1985,
+        0.1644
+      ],
+      "volume_m3": 0.01465,
+      "confidence": 0.9681,
+      "num_gaussians": 113,
+      "num_views_observed": 1,
+      "color_rgb": [
+        0.29,
+        0.502,
+        0.928
+      ]
+    },
+    {
+      "object_id": "computer_keyboard_03",
+      "instance_index": 20,
+      "category": "keyboard",
+      "canonical_name": "computer_keyboard",
+      "label": "Computer Keyboard #3 (right side of desk)",
+      "description": "Computer Keyboard #3 (right side of desk): mechanical computer keyboard on office desk for typing text, writing code, and data entry input device in front of monitor. Located at right side of desk around 3D coordinates (0.17, 0.15, 0.94) meters.",
+      "affordances": [
+        "typeable",
+        "pressable",
+        "graspable",
+        "stationary_input"
+      ],
+      "center_m": [
+        0.1729,
+        0.1505,
+        0.9409
+      ],
+      "bbox_min_m": [
+        0.0543,
+        0.0481,
+        0.8422
+      ],
+      "bbox_max_m": [
+        0.4107,
+        0.2556,
+        1.0275
+      ],
+      "extent_m": [
+        0.3564,
+        0.2075,
+        0.1852
+      ],
+      "volume_m3": 0.0137,
+      "confidence": 0.8833,
+      "num_gaussians": 666,
+      "num_views_observed": 1,
+      "color_rgb": [
+        0.248,
+        0.758,
+        0.928
+      ]
+    },
+    {
+      "object_id": "wooden_office_desk_01",
+      "instance_index": 21,
+      "category": "dining table",
+      "canonical_name": "wooden_office_desk",
+      "label": "Wooden Office Desk #1 (center of desk)",
+      "description": "Wooden Office Desk #1 (center of desk): large wooden office desk planar support surface holding monitors, keyboard, laptop, mouse, coffee mug, and books. Located at center of desk around 3D coordinates (-0.62, 0.49, 0.71) meters.",
+      "affordances": [
+        "support_surface",
+        "placeable_target",
+        "static_obstacle"
+      ],
+      "center_m": [
+        -0.6225,
+        0.4855,
+        0.7116
+      ],
+      "bbox_min_m": [
+        -1.0429,
+        0.2176,
+        0.5796
+      ],
+      "bbox_max_m": [
+        -0.1757,
+        0.6827,
+        0.9907
+      ],
+      "extent_m": [
+        0.8672,
+        0.4651,
+        0.4111
+      ],
+      "volume_m3": 0.16582,
+      "confidence": 0.6662,
+      "num_gaussians": 5227,
+      "num_views_observed": 3,
+      "color_rgb": [
+        0.6,
+        0.55,
+        0.5
+      ]
+    }
+  ]
+}
